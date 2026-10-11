@@ -1,0 +1,12 @@
+:root { --bg: #0e1014; --panel: #171a21; --text: #ecebe6; --muted: #8b919c; --accent: #f0b44c; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 56px 20px 80px; }
+.brand { font: 800 15px ui-monospace, Menlo, monospace; letter-spacing: 3px; }
+.brand b { color: var(--accent); }
+h1 { font-size: 36px; line-height: 1.15; letter-spacing: -1px; margin: 28px 0 12px; }
+h2 { font-size: 20px; margin-top: 36px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); }
+.card { background: var(--panel); border-radius: 12px; padding: 18px 20px; margin: 20px 0; }
+footer { margin-top: 56px; font-size: 14px; color: var(--muted); }
